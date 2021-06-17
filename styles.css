@@ -6,7 +6,7 @@ body{
 h1{
     color: blue;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
 }
 h2{
     color: #46484c;
@@ -32,30 +32,54 @@ button{
   li{
       display: inline;
   }
+
   .header>*{
       display: inline-block;
       font-size: 16px;
       vertical-align: 16px;
       height: 100%;
       line-height: 45%;
-      
-      
+           
   }
+
   .logo{
       width: 15%;
       line-height: 45px;
   }
   .navbar{
       width: 70%;
-      text-align: center;
-      color: green;
+      text-align: left;
+      color: #025157;
+      
   }
+
+  .menu{
+     margin-left: 25px;
+      margin-left: 25px;
+  }
+
   .actions{
       width: 15%;
       text-align: right;
       font-size: 14px;
 
   }
-  /* .margen{
-      margin: 10%
-  } */
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
