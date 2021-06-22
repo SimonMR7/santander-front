@@ -83,3 +83,66 @@ button{
     border: 0;
     border-radius: 5px;
   }
+
+  .publicidad h4 {
+    font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+    color: #025157  ;
+
+  }
+
+  .publicidad > p {
+
+    color: #343434  ;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+  }
+
+  .publicidad > form {
+    display: flex;
+  }
+
+  .publicidad > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+  .publicidad > form button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  .videoPublicidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+  }
+  
+  .videoPublicidad img {
+    width: 120px;
+    margin-top: 10px ;
+  }
+
+  .fixed-header{
+      position: fixed;
+      background-color: white;
+      
+      top: 0;
+  }
